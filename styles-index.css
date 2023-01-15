@@ -30,7 +30,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #D7D6D2;
     margin-top: 0px;
     z-index: 1;
@@ -39,6 +39,11 @@ h1 {
 .recipe-img {
     height: 380px;
     border-radius: 18px;
+}
+
+.recipe-container .middle {
+    margin-left: 70px;
+    margin-right: 70px
 }
 
 .recipe-container:hover .recipe-img, 
